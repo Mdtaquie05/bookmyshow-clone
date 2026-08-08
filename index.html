@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bookmyshow - clone</title>
+    <link rel="shortcut icon" href="./IMAGES/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body>
+
+    <header>
+
+        <div class="header1">
+            <div class="logoSide">
+                <img src="./IMAGES/logo img.png" alt="image of logo" class="logoimg">
+
+                <div class="searchBox">
+                    <i><span class="material-symbols-outlined">search</span></i>
+                    <input type="text" placeholder="search for Movies, Events, Plays, Sports and Activities">
+                </div>
+
+            </div>
+            <div class="loginSide">
+
+                <div class="cityDropdown">
+                    <button class="cityBtn" id="cityBtn">
+                        <span id="selectedCity">Kolkata</span>
+                        <span class="material-symbols-outlined">
+                            keyboard_arrow_down
+                        </span>
+                    </button>
+
+                    <div class="cityMenu" id="cityMenu">
+                        <p class="city">Kolkata</p>
+                        <p class="city">Mumbai</p>
+                        <p class="city">Delhi</p>
+                        <p class="city">Hyderabad</p>
+                        <p class="city">Bangalore</p>
+                        <p class="city">Chennai</p>
+                        <p class="city">Pune</p>
+                        <p class="city">Ahmedabad</p>
+                        <p class="city">Jaipur</p>
+                        <p class="city">Lucknow</p>
+                    </div>
+                </div>
+
+                <a href="./login.html">
+                    <button class="signupBtn">sign-up</button>
+                </a>
+
+                <span class="material-symbols-outlined">menu</span>
+
+            </div>
+        </div>
+
+        <div class="header2">
+            <div class="movieSide">
+                <ul class="navLinks">
+                    <li><a href="./index.html">home</a></li>
+                    <li><a href="./movies.html" target="_blank">movies</a></li>
+                    <li><a href="./events.html"target="_blank">events</a></li>
+                    <li><a href="./about.html" target="_blank">about</a></li>
+                    <li><a href="./contact.html" target="_blank">contact</a></li>
+                </ul>
+            </div>
+
+            <div class="offerSide">
+                <ul class="navLinks">
+                    <li><a href="#">live your shows</a></li>
+                    <li><a href="#">corporates</a></li>
+                    <li><a href="#">offers</a></li>
+                    <li><a href="#">gift cards</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <section class="hero-slider">
+
+            <div class="slides">
+
+                <div class="slide">
+                    <img src="./IMAGES/slider images/slider 1.avif" alt="Slide 1">
+                </div>
+
+                <div class="slide">
+                    <img src="./IMAGES/slider images/slider 2.avif" alt="Slide 2">
+                </div>
+
+                <div class="slide">
+                    <img src="./IMAGES/slider images/slider 3.avif" alt="Slide 3">
+                </div>
+
+            </div>
+
+            <!-- Previous / Next Buttons -->
+            <button class="prev">&#10094;</button>
+            <button class="next">&#10095;</button>
+
+            <!-- Dots -->
+            <div class="dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+
+        </section>
+
+        <section class="movies-section">
+
+            <div class="section-header">
+                <h2>recommended movies</h2>
+                <a href="./movies.html" target="_blank">View All</a>
+            </div>
+
+            <div class="movie-carousel">
+                <button class="movie-arrow movie-prev">&#10094;</button>
+
+                <div class="movie-wrapper">
+                    <div class="movie-container">
+
+                        <div class="movie-card">
+                            <div class="movie-img">
+                                <img src="./IMAGES/movies image/Spider-man.jpg" alt="Movie">
+
+                            </div>
+
+                            <div class="movie-info">
+                                <h3>spider-man: brand new day</h3>
+                                <p>Action/Adventure/sci-fi</p>
+
+                                <!-- <button>Book Now</button> -->
+                            </div>
+                        </div>
+
+                        <div class="movie-card">
+                            <div class="movie-img">
+                                <img src="./IMAGES/movies image/Aajo Ardhangini.webp" alt="Movie">
+                            </div>
+
+                            <div class="movie-info">
+                                <h3>aajo ardhangini</h3>
+                                <p>drama/family</p>
+
+                                <!-- <button>Book Now</button> -->
+                            </div>
+                        </div>
+
+                        <div class="movie-card">
+                            <div class="movie-img">
+                                <img src="./IMAGES/movies image/Dhamaal 4.webp" alt="Movie">
+                            </div>
+
+                            <div class="movie-info">
+                                <h3>dhamaal 4</h3>
+                                <p>adventure/comedy</p>
+
+                                <!-- <button>Book Now</button> -->
+                            </div>
+                        </div>
+
+                        <div class="movie-card">
+                            <div class="movie-img">
+                                <img src="./IMAGES/movies image/The Odyssey.webp" alt="Movie">
+                            </div>
+
+                            <div class="movie-info">
+                                <h3>the odyssey</h3>
+                                <p>action/adventure/drama/fantasy</p>
+
+                                <!-- <button>Book Now</button> -->
+                            </div>
+                        </div>
+
+                        <div class="movie-card">
+                            <div class="movie-img">
+                                <img src="./IMAGES/movies image/DeSu7.webp" alt="Movie">
+                            </div>
+
+                            <div class="movie-info">
+                                <h3>DeSu7</h3>
+                                <p>action/drama/romantic</p>
+
+                                <!-- <button>Book Now</button> -->
+                            </div>
+                        </div>
+
+                        <div class="movie-card">
+                            <div class="movie-img">
+                                <img src="./IMAGES/movies image/bhai tera star hai.webp" alt="Movie">
+                            </div>
+
+                            <div class="movie-info">
+                                <h3>bhai tera star hai</h3>
+                                <p>comedy/thriller</p>
+
+                                <!-- <button>Book Now</button> -->
+                            </div>
+                        </div>
+
+                        <div class="movie-card">
+                            <div class="movie-img">
+                                <img src="./IMAGES/movies image/Jan Neta.webp" alt="Movie">
+                            </div>
+
+                            <div class="movie-info">
+                                <h3>jan neta</h3>
+                                <p>action/drama/political</p>
+
+                                <!-- <button>Book Now</button> -->
+                            </div>
+                        </div>
+
+                        <div class="movie-card">
+                            <div class="movie-img">
+                                <img src="./IMAGES/movies image/Katukutu Buro.webp" alt="Movie">
+                            </div>
+
+                            <div class="movie-info">
+                                <h3>katukutu boro</h3>
+                                <p>drama/social/thriller</p>
+
+                                <!-- <button>Book Now</button> -->
+                            </div>
+                        </div>
+
+                        <div class="movie-card">
+                            <div class="movie-img">
+                                <img src="./IMAGES/movies image/ohh my dog.webp" alt="Movie">
+                            </div>
+
+                            <div class="movie-info">
+                                <h3>ohh my dog</h3>
+                                <p>adventure/drama</p>
+
+                                <!-- <button>Book Now</button> -->
+                            </div>
+                        </div>
+
+                        <div class="movie-card">
+                            <div class="movie-img">
+                                <img src="./IMAGES/movies image/The Bose Files.webp" alt="Movie">
+                            </div>
+
+                            <div class="movie-info">
+                                <h3>the bose files: sach ya sazish</h3>
+                                <p>drama/historical</p>
+
+                                <!-- <button>Book Now</button> -->
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <button class="movie-arrow movie-next">&#10095;</button>
+            </div>
+            <img src="./IMAGES/2nd section image.avif" alt="" class="sectionImg">
+        </section>
+
+        <section class="eventSection">
+            <div class="eventHeader">
+                <h2>
+                    the best of live events
+                </h2>
+            </div>
+
+            <div class="eventCarousel">
+                <button class="eventArrow eventPrev">&#10094;</button>
+
+                <div class="eventWrapper">
+                    <div class="eventContainer">
+
+                        <div class="eventCard">
+                            <div class="eventImg">
+                                <img src="./IMAGES/events img/amuesment park.avif" alt="Movie">
+
+                            </div>
+                        </div>
+
+                        <div class="eventCard">
+                            <div class="eventImg">
+                                <img src="./IMAGES/events img/kids.avif" alt="Movie">
+
+                            </div>
+                        </div>
+
+                        <div class="eventCard">
+                            <div class="eventImg">
+                                <img src="./IMAGES/events img/food  and drinks.avif" alt="Movie">
+
+                            </div>
+                        </div>
+
+                        <div class="eventCard">
+                            <div class="eventImg">
+                                <img src="./IMAGES/events img/Comedy Show.avif" alt="Movie">
+
+                            </div>
+                        </div>
+
+                        <div class="eventCard">
+                            <div class="eventImg">
+                                <img src="./IMAGES/events img/arts and craft.avif" alt="Movie">
+
+                            </div>
+                        </div>
+
+                        <div class="eventCard">
+                            <div class="eventImg">
+                                <img src="./IMAGES/events img/music show.avif" alt="Movie">
+
+                            </div>
+                        </div>
+
+                        <div class="eventCard">
+                            <div class="eventImg">
+                                <img src="./IMAGES/events img/theatre show.avif" alt="Movie">
+
+                            </div>
+                        </div>
+
+                        <div class="eventCard">
+                            <div class="eventImg">
+                                <img src="./IMAGES/events img/upskills and training.avif" alt="Movie">
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <button class="eventArrow eventNext">&#10095;</button>
+            </div>
+        </section>
+
+        <section class="premiere-section">
+            <div class="premiere-content">
+
+                <div class="premiere-logo">
+                    <a href="./movies.html" target="_blank">
+                    <button class="play-icon"></button>
+                    </a>
+
+                    <div>
+                        <h2>PREMIERE</h2>
+                        <p>Watch new movies at home, every Friday</p>
+                    </div>
+                </div>
+
+                <div class="premiere-heading">
+                    <h2>Premieres</h2>
+                    <p>Brand new releases every Friday</p>
+                </div>
+
+                <div class="premiere-movies">
+
+                    <div class="premiere-card">
+                        <div class="premiere-poster">
+                            <img src="./IMAGES/premium image/case 137.webp" alt="Case 137">
+                            <span>PREMIERE</span>
+                        </div>
+                        <h3>Case 137</h3>
+                        <p>French</p>
+                    </div>
+
+                    <div class="premiere-card">
+                        <div class="premiere-poster">
+                            <img src="./IMAGES/premium image/a great awakening.webp" alt="A Great Awakening">
+                            <span>PREMIERE</span>
+                        </div>
+                        <h3>A Great Awakening</h3>
+                        <p>English</p>
+                    </div>
+
+                    <div class="premiere-card">
+                        <div class="premiere-poster">
+                            <img src="./IMAGES/premium image/oslo.webp" alt="Oslo: A Tail of Promise">
+                            <span>PREMIERE</span>
+                        </div>
+                        <h3>Oslo: A Tail of Promise</h3>
+                        <p>English</p>
+                    </div>
+
+                    <div class="premiere-card">
+                        <div class="premiere-poster">
+                            <img src="./IMAGES/premium image/son of sara.webp" alt="Son of Sara: Volume 1">
+                            <span>PREMIERE</span>
+                        </div>
+                        <h3>Son of Sara: Volume 1</h3>
+                        <p>English</p>
+                    </div>
+
+                    <div class="premiere-card">
+                        <div class="premiere-poster">
+                            <img src="./IMAGES/premium image/hidden murder.webp" alt="Hidden Murder">
+                            <span>PREMIERE</span>
+                        </div>
+                        <h3>Hidden Murder</h3>
+                        <p>Spanish</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <DIV class="footerText">
+            <p> list your show Got a show, events, activity or a great experience? <br>Partner with us & get listed on <span class="span1">Books<span class="span2">My</span>Show</span></p>
+            <button class="btn">contact today</button>
+        </DIV>
+    </main>
+
+    <footer class="site-footer">
+
+    <div class="footer-top">
+        <div class="footer-brand">
+            <img src="./IMAGES/footer icon.png" alt="" class="logoimg2">
+            <!-- <h2>Book<span>My</span>Show</h2> -->
+        </div>
+
+        
+
+        <div class="footer-links">
+            <div>
+                <h3>MovieZone</h3>
+                <a href="#">About Us</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Careers</a>
+            </div>
+
+            <div>
+                <h3>Help</h3>
+                <a href="#">24/7 Customer Care</a>
+                <a href="#">Resend Booking Confirmation</a>
+                <a href="#">Subscribe To The Newsletter</a>
+            </div>
+
+            <div>
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook">f</a>
+                    <a href="#" aria-label="Instagram">in</a>
+                    <a href="#" aria-label="YouTube">yt</a>
+                    <a href="#" aria-label="Twitter">x</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-line"></div>
+
+    <div class="footer-bottom">
+        <p>Copyright 2026 ©Zentrix Tech Studio. All Rights Reserved.</p>
+        <!-- <p>Made with ❤️ for movie lovers</p> -->
+    </div>
+
+</footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

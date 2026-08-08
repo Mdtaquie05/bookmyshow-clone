@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events Booking</title>
+    <link rel="shortcut icon" href="./IMAGES/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body>
+
+    <header>
+
+        <div class="header1">
+            <div class="logoSide">
+                <img src="./IMAGES/logo img.png" alt="image of logo" class="logoimg">
+
+                <div class="searchBox">
+                    <i><span class="material-symbols-outlined">search</span></i>
+                    <input type="text" placeholder="search for Movies, Events, Plays, Sports and Activities">
+                </div>
+
+            </div>
+            <div class="loginSide">
+
+                <div class="cityDropdown">
+                    <button class="cityBtn" id="cityBtn">
+                        <span id="selectedCity">Kolkata</span>
+                        <span class="material-symbols-outlined">
+                            keyboard_arrow_down
+                        </span>
+                    </button>
+
+                    <div class="cityMenu" id="cityMenu">
+                        <p class="city">Kolkata</p>
+                        <p class="city">Mumbai</p>
+                        <p class="city">Delhi</p>
+                        <p class="city">Hyderabad</p>
+                        <p class="city">Bangalore</p>
+                        <p class="city">Chennai</p>
+                        <p class="city">Pune</p>
+                        <p class="city">Ahmedabad</p>
+                        <p class="city">Jaipur</p>
+                        <p class="city">Lucknow</p>
+                    </div>
+                </div>
+
+                <a href="./login.html">
+                    <button class="signupBtn">sign-up</button>
+                </a>
+
+                <span class="material-symbols-outlined">menu</span>
+
+            </div>
+        </div>
+
+        <div class="header2">
+            <div class="movieSide">
+                <ul class="navLinks">
+                    <li><a href="./index.html">home</a></li>
+                    <li><a href="./movies.html" target="_blank">movies</a></li>
+                    <li><a href="./events.html"target="_blank">events</a></li>
+                    <li><a href="./about.html" target="_blank">about</a></li>
+                    <li><a href="./contact.html" target="_blank">contact</a></li>
+                </ul>
+            </div>
+
+            <div class="offerSide">
+                <ul class="navLinks">
+                    <li><a href="#">live your shows</a></li>
+                    <li><a href="#">corporates</a></li>
+                    <li><a href="#">offers</a></li>
+                    <li><a href="#">gift cards</a></li>
+                </ul>
+            </div>
+        </div>
+
+        </div>
+
+    </header>
+
+
+
+
+    <section class="movie-page">
+
+        <!-- ================= MOVIE CONTENT ================= -->
+
+        <section class="movie-content">
+
+            <!-- Heading -->
+
+            <div class="movie-heading">
+                <h2>Events in Kolkata</h2>
+            </div>
+
+
+            <!-- Filter Buttons -->
+
+            <div class="selected-filters">
+
+                <button class="active">All</button>
+                <button>Workshop</button>
+                <button>Comedy Shows</button>
+                <button>Music Shows</button>
+                <button>Performances</button>
+                <button>Kids</button>
+                <button>Conference</button>
+                <button>MeetUps</button>
+                <button>Exhibitions</button>
+                <button>Spirituality</button>
+
+            </div>
+
+
+            <!-- Coming Soon -->
+
+            <!-- <div class="coming-soon">
+
+                <div class="coming-content">
+
+                    <h4>Coming Soon</h4>
+
+                    <p>Explore Upcoming Movies</p>
+
+                </div>
+
+            </div> -->
+
+
+            <!-- ================= MOVIE GRID ================= -->
+
+            <div class="movie-grid">
+
+
+                <!-- Movie 1 -->
+
+                <div class="movie-card">
+
+                    <div class="poster">
+                        <img src="IMAGES/events img/event-page/sotoborsho uttam.webp" alt="GDN">
+
+                        <span class="rating">★ 8.5</span>
+                    </div>
+
+                    <h3>Sotoborsho Uttam</h3>
+
+                    <p>Mahajatin Sadan</p>
+
+                    <small>Concerts</small>
+
+                </div>
+
+
+                <!-- Movie 2 -->
+
+                <div class="movie-card">
+
+                    <div class="poster">
+                        <img src="IMAGES/events img/event-page/made in bengal stand up comedy by rohit.webp" alt="Oh My Dog">
+
+                        <span class="rating">★ 8.1</span>
+                    </div>
+
+                    <h3>Made In Bengal : StandUp Comedy By Rohit </h3>
+
+                    <p>Laughing Hyena Comedy</p>
+
+                    <small>StandUp Comedy</small>
+
+                </div>
+
+
+                <!-- Movie 3 -->
+
+                <div class="movie-card">
+
+                    <div class="poster">
+                        <img src="IMAGES/events img/event-page/vande mataram.webp" alt="Ajo Adhanki">
+
+                        <span class="rating">★ 8.2</span>
+                    </div>
+
+                    <h3>Vande Mataram : Ek Desh Ek Shur</h3>
+
+                    <p>Rabindra Sadan</p>
+
+                    <small>Concerts</small>
+
+                </div>
+
+
+                <!-- Movie 4 -->
+
+                <div class="movie-card">
+
+                    <div class="poster">
+                        <img src="IMAGES/events img/event-page/et00506534-wzdpadnvtx-portrait.webp" alt="Chorabali">
+
+                        <span class="rating">★ 7.9</span>
+                    </div>
+
+                    <h3>SUNBRUN RELOAD MANDARMANI</h3>
+
+                    <p>Mandarmani Beach</p>
+
+                    <small>Concert</small>
+
+                </div>
+
+
+                <!-- Movie 5 -->
+
+                <div class="movie-card">
+
+                    <div class="poster">
+                        <img src="IMAGES/events img/event-page/legacy of the master.webp" alt="DeSa">
+
+                        <span class="rating">★ 8.0</span>
+                    </div>
+
+                    <h3>Legacy Of The Master</h3>
+
+                    <p>Nazrul Mancha</p>
+
+                    <small>Concert</small>
+
+                </div>
+
+
+                <!-- Movie 6 -->
+
+                <div class="movie-card">
+
+                    <div class="poster">
+                        <img src="IMAGES/events img/event-page/piya tora.webp" alt="Kaktusku Boro">
+
+                        <span class="rating">★ 8.3</span>
+                    </div>
+
+                    <h3>PIYA TORA KAISA ABHIMAN</h3>
+
+                    <p>GD BIRLA</p>
+
+                    <small>Concerts</small>
+
+                </div>
+
+
+                <!-- Movie 7 -->
+
+                <div class="movie-card">
+
+                    <div class="poster">
+                        <img src="IMAGES/events img/event-page/young artist corner.webp" alt="Amader Sadhkar">
+
+                        <span class="rating">★ 8.4</span>
+                    </div>
+
+                    <h3>Young Artist Corner</h3>
+
+                    <p>Third Wave Coffee</p>
+
+                    <small>Arts And Craft</small>
+
+                </div>
+
+
+                <!-- Movie 8 -->
+
+                <div class="movie-card">
+
+                    <div class="poster">
+                        <img src="IMAGES/events img/event-page/tab tum kahaan the.webp" alt="September Countdown">
+
+                        <span class="rating">★ 7.8</span>
+                    </div>
+
+                    <h3>Tab Tum Kahaan The ?</h3>
+
+                    <p>The Satire Club</p>
+
+                    <small>Standup Comedy</small>
+
+                </div>
+
+
+                <!-- Movie 9 -->
+
+                <div class="movie-card">
+
+                    <div class="poster">
+                        <img src="IMAGES/events img/event-page/kumar sanu.webp" alt="Nevermind">
+
+                        <span class="rating">★ 8.1</span>
+                    </div>
+
+                    <h3>Kumar Sanu Live In Concert </h3>
+
+                    <p>Biswa Bangla</p>
+
+                    <small>Concert</small>
+
+                </div>
+
+
+                <!-- Movie 10 -->
+
+                <div class="movie-card">
+
+                    <div class="poster">
+                        <img src="IMAGES/events img/event-page/kisi ko batana mat.webp" alt="Get Up Kingskak">
+
+                        <span class="rating">★ 7.7</span>
+                    </div>
+
+                    <h3>Kisi Ko Batana Mat Ft. by Bassi</h3>
+
+                    <p>Deep Smriti</p>
+
+                    <small>Standup Comedy</small>
+
+                </div>
+
+
+                <!-- Movie 11 -->
+
+                <div class="movie-card">
+
+                    <div class="poster">
+                        <img src="IMAGES/events img/event-page/genz vs 90s.webp" alt="Pinjar">
+
+                        <span class="rating">★ 8.6</span>
+                    </div>
+
+                    <h3>GenZ vs 90's</h3>
+
+                    <p>Anamika Kala Sangam</p>
+
+                    <small>Standup Comedy</small>
+
+                </div>
+
+
+                <!-- Movie 12 -->
+
+                <div class="movie-card">
+
+                    <div class="poster">
+                        <img src="IMAGES/events img/event-page/wheel pottery.webp" alt="Spider Man">
+
+                        <span class="rating">★ 8.9</span>
+                    </div>
+
+                    <h3>Wheel Pottery</h3>
+
+                    <p>Rehearse : KOLKATA</p>
+
+                    <small>Arts And Craft</small>
+
+                </div>
+
+
+                
+
+            </div>
+
+        </section>
+
+    </section>
+
+    
+
+
+    <footer class="site-footer">
+
+    <div class="footer-top">
+        <div class="footer-brand">
+            <img src="./IMAGES/logo img.png" alt="" class="logoimg2">
+            <!-- <h2>Book<span>My</span>Show</h2> -->
+        </div>
+
+        
+
+        <div class="footer-links">
+            <div>
+                <h3>MovieZone</h3>
+                <a href="#">About Us</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Careers</a>
+            </div>
+
+            <div>
+                <h3>Help</h3>
+                <a href="#">24/7 Customer Care</a>
+                <a href="#">Resend Booking Confirmation</a>
+                <a href="#">Subscribe To The Newsletter</a>
+            </div>
+
+            <div>
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook">f</a>
+                    <a href="#" aria-label="Instagram">in</a>
+                    <a href="#" aria-label="YouTube">yt</a>
+                    <a href="#" aria-label="Twitter">X</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-line"></div>
+
+    <div class="footer-bottom">
+        <p>Copyright 2026 ©Zentrix Tech Studio. All Rights Reserved.</p>
+        <!-- <p>Made with ❤️ for movie lovers</p> -->
+    </div>
+
+</footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
