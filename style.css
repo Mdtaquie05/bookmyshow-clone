@@ -553,12 +553,15 @@ header {
 
 .movie-container {
     display: flex;
-
     gap: 20px;
-
-    width: max-content;
-
+    width: 100%;
     transition: transform 0.5s ease;
+}
+
+.movies-section .movie-card {
+    flex: 0 0 calc((100% - 80px) / 5);
+    min-width: 0;
+    box-sizing: border-box;
 }
 
 
@@ -741,12 +744,15 @@ header {
 
 .eventContainer {
     display: flex;
-
     gap: 20px;
-
-    width: max-content;
-
+    width: 100%;
     transition: transform 0.5s ease;
+}
+
+.eventCard {
+    flex: 0 0 calc((100% - 80px) / 5);
+    min-width: 0;
+    box-sizing: border-box;
 }
 
 
@@ -2151,13 +2157,13 @@ header {
 
     /* Home movie carousel */
 
-    .movies-section .movie-card {
-        flex-basis: calc((100vw - 8vw - 120px) / 3);
-    }
+   .movies-section .movie-card {
+    flex-basis: calc((100% - 40px) / 3);
+}
 
-    .eventCard {
-        flex-basis: calc((100vw - 8vw - 120px) / 3);
-    }
+.eventCard {
+    flex-basis: calc((100% - 40px) / 3);
+}
 
 
     /* Premiere */
@@ -2381,7 +2387,7 @@ header {
     }
 
     .movies-section .movie-card {
-        flex-basis: calc((100vw - 8vw - 72px) / 2);
+        flex-basis: calc((100% - 12px) / 2);
     }
 
     .movie-arrow,
@@ -2426,7 +2432,7 @@ header {
     }
 
     .eventCard {
-        flex-basis: calc((100vw - 8vw - 72px) / 2);
+        flex-basis: calc((100% - 12px) / 2);
     }
 
 
@@ -2781,7 +2787,7 @@ header {
     }
 
     .movies-section .movie-card {
-        flex-basis: calc((100vw - 8vw - 62px) / 2);
+        flex-basis: calc((100% - 10px) / 2);
     }
 
     .movie-info h3 {
@@ -2817,7 +2823,7 @@ header {
     }
 
     .eventCard {
-        flex-basis: calc((100vw - 8vw - 62px) / 2);
+        flex-basis: calc((100% - 10px) / 2);
     }
 
 
